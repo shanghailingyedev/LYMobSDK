@@ -1,0 +1,6 @@
+framework module CJMobileAd {
+  umbrella header "CJMobileAd.h"
+  export *
+
+  module * { export * }
+}

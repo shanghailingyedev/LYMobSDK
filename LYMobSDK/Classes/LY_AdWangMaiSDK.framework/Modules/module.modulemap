@@ -1,0 +1,6 @@
+framework module LY_AdWangMaiSDK {
+  umbrella header "LY_AdWangMaiSDK.h"
+  export *
+
+  module * { export * }
+}

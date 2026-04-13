@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C16A1F38FC145511DB80FD8 /* Pods_LYMobSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7EB5897D816FC5801C0D21 /* Pods_LYMobSDK_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* LYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LYAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LYViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B74AD3B62F8902BB00B0AD11 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3AB2F8902BB00B0AD11 /* CustomCell.m */; };
+		B74AD3B72F8902BB00B0AD11 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3A62F8902BB00B0AD11 /* NativeViewController.m */; };
+		B74AD3B82F8902BB00B0AD11 /* InterstitialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3A12F8902BB00B0AD11 /* InterstitialVC.m */; };
+		B74AD3B92F8902BB00B0AD11 /* RewardVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3B02F8902BB00B0AD11 /* RewardVideoVC.m */; };
+		B74AD3BA2F8902BB00B0AD11 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3A92F8902BB00B0AD11 /* BaseViewController.m */; };
+		B74AD3BB2F8902BB00B0AD11 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3B32F8902BB00B0AD11 /* SplashVC.m */; };
+		B74AD3BC2F8902BB00B0AD11 /* NativeLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3A42F8902BB00B0AD11 /* NativeLoaderManager.m */; };
+		B74AD3BD2F8902BB00B0AD11 /* CustomShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3AD2F8902BB00B0AD11 /* CustomShowView.m */; };
+		B74AD3C02F8902C600B0AD11 /* SplashAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3BF2F8902C600B0AD11 /* SplashAdViewController.m */; };
+		B74AD3CA2F89039F00B0AD11 /* CJEntranceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3C52F89039F00B0AD11 /* CJEntranceController.m */; };
+		B74AD3CB2F89039F00B0AD11 /* CJEntranceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3C32F89039F00B0AD11 /* CJEntranceCell.m */; };
+		B74AD3CC2F89039F00B0AD11 /* CJEntranceHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AD3C72F89039F00B0AD11 /* CJEntranceHeaderView.m */; };
+		B7E241EDE147F8DAEDEF087A /* Pods_LYMobSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542330BF2DECFD16CDA148EF /* Pods_LYMobSDK_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = LYMobSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0494C4AE6104318C278C133A /* LYMobSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYMobSDK.podspec; path = ../LYMobSDK.podspec; sourceTree = "<group>"; };
+		10DF74A731C834A553D549CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4CDC99478BE3A97813F31441 /* Pods-LYMobSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMobSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		542330BF2DECFD16CDA148EF /* Pods_LYMobSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYMobSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0ED55964E408563C959E80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* LYMobSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMobSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* LYMobSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LYMobSDK-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LYMobSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYMobSDK-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* LYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* LYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* LYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* LYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* LYMobSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMobSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6322616E83009088D7B810E0 /* Pods-LYMobSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMobSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-LYMobSDK_Tests/Pods-LYMobSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA9B825F381405BDD2EFA74 /* Pods-LYMobSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMobSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYMobSDK_Tests/Pods-LYMobSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B74AD3A02F8902BB00B0AD11 /* InterstitialVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialVC.h; sourceTree = "<group>"; };
+		B74AD3A12F8902BB00B0AD11 /* InterstitialVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialVC.m; sourceTree = "<group>"; };
+		B74AD3A32F8902BB00B0AD11 /* NativeLoaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeLoaderManager.h; sourceTree = "<group>"; };
+		B74AD3A42F8902BB00B0AD11 /* NativeLoaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeLoaderManager.m; sourceTree = "<group>"; };
+		B74AD3A52F8902BB00B0AD11 /* NativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
+		B74AD3A62F8902BB00B0AD11 /* NativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
+		B74AD3A82F8902BB00B0AD11 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B74AD3A92F8902BB00B0AD11 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B74AD3AA2F8902BB00B0AD11 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		B74AD3AB2F8902BB00B0AD11 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		B74AD3AC2F8902BB00B0AD11 /* CustomShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomShowView.h; sourceTree = "<group>"; };
+		B74AD3AD2F8902BB00B0AD11 /* CustomShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomShowView.m; sourceTree = "<group>"; };
+		B74AD3AF2F8902BB00B0AD11 /* RewardVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardVideoVC.h; sourceTree = "<group>"; };
+		B74AD3B02F8902BB00B0AD11 /* RewardVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardVideoVC.m; sourceTree = "<group>"; };
+		B74AD3B22F8902BB00B0AD11 /* SplashVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
+		B74AD3B32F8902BB00B0AD11 /* SplashVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
+		B74AD3BE2F8902C600B0AD11 /* SplashAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashAdViewController.h; sourceTree = "<group>"; };
+		B74AD3BF2F8902C600B0AD11 /* SplashAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashAdViewController.m; sourceTree = "<group>"; };
+		B74AD3C12F89033A00B0AD11 /* CJMobilePublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMobilePublic.h; sourceTree = "<group>"; };
+		B74AD3C22F89039F00B0AD11 /* CJEntranceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJEntranceCell.h; sourceTree = "<group>"; };
+		B74AD3C32F89039F00B0AD11 /* CJEntranceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJEntranceCell.m; sourceTree = "<group>"; };
+		B74AD3C42F89039F00B0AD11 /* CJEntranceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJEntranceController.h; sourceTree = "<group>"; };
+		B74AD3C52F89039F00B0AD11 /* CJEntranceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJEntranceController.m; sourceTree = "<group>"; };
+		B74AD3C62F89039F00B0AD11 /* CJEntranceHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJEntranceHeaderView.h; sourceTree = "<group>"; };
+		B74AD3C72F89039F00B0AD11 /* CJEntranceHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJEntranceHeaderView.m; sourceTree = "<group>"; };
+		B74AD3C82F89039F00B0AD11 /* CJMobileAd_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJMobileAd_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2EDFBF1A550719F15B1E366 /* Pods-LYMobSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMobSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA7EB5897D816FC5801C0D21 /* Pods_LYMobSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYMobSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				3C16A1F38FC145511DB80FD8 /* Pods_LYMobSDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				B7E241EDE147F8DAEDEF087A /* Pods_LYMobSDK_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for LYMobSDK */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				B3C9FD6ED7249500E7191D35 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* LYMobSDK_Example.app */,
+				6003F5AE195388D20070C39A /* LYMobSDK_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				EA7EB5897D816FC5801C0D21 /* Pods_LYMobSDK_Example.framework */,
+				542330BF2DECFD16CDA148EF /* Pods_LYMobSDK_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for LYMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3C92F89039F00B0AD11 /* Interface */,
+				B74AD3B52F8902BB00B0AD11 /* Ads */,
+				6003F59C195388D20070C39A /* LYAppDelegate.h */,
+				6003F59D195388D20070C39A /* LYAppDelegate.m */,
+				B74AD3BE2F8902C600B0AD11 /* SplashAdViewController.h */,
+				B74AD3BF2F8902C600B0AD11 /* SplashAdViewController.m */,
+				B74AD3C12F89033A00B0AD11 /* CJMobilePublic.h */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* LYViewController.h */,
+				6003F5A6195388D20070C39A /* LYViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for LYMobSDK";
+			path = LYMobSDK;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* LYMobSDK-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* LYMobSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				0494C4AE6104318C278C133A /* LYMobSDK.podspec */,
+				10DF74A731C834A553D549CE /* README.md */,
+				5C0ED55964E408563C959E80 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B3C9FD6ED7249500E7191D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CDC99478BE3A97813F31441 /* Pods-LYMobSDK_Example.debug.xcconfig */,
+				E2EDFBF1A550719F15B1E366 /* Pods-LYMobSDK_Example.release.xcconfig */,
+				8FA9B825F381405BDD2EFA74 /* Pods-LYMobSDK_Tests.debug.xcconfig */,
+				6322616E83009088D7B810E0 /* Pods-LYMobSDK_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B74AD3A22F8902BB00B0AD11 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3A02F8902BB00B0AD11 /* InterstitialVC.h */,
+				B74AD3A12F8902BB00B0AD11 /* InterstitialVC.m */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		B74AD3A72F8902BB00B0AD11 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3A32F8902BB00B0AD11 /* NativeLoaderManager.h */,
+				B74AD3A42F8902BB00B0AD11 /* NativeLoaderManager.m */,
+				B74AD3A52F8902BB00B0AD11 /* NativeViewController.h */,
+				B74AD3A62F8902BB00B0AD11 /* NativeViewController.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		B74AD3AE2F8902BB00B0AD11 /* Pubilc */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3A82F8902BB00B0AD11 /* BaseViewController.h */,
+				B74AD3A92F8902BB00B0AD11 /* BaseViewController.m */,
+				B74AD3AA2F8902BB00B0AD11 /* CustomCell.h */,
+				B74AD3AB2F8902BB00B0AD11 /* CustomCell.m */,
+				B74AD3AC2F8902BB00B0AD11 /* CustomShowView.h */,
+				B74AD3AD2F8902BB00B0AD11 /* CustomShowView.m */,
+			);
+			path = Pubilc;
+			sourceTree = "<group>";
+		};
+		B74AD3B12F8902BB00B0AD11 /* RewardVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3AF2F8902BB00B0AD11 /* RewardVideoVC.h */,
+				B74AD3B02F8902BB00B0AD11 /* RewardVideoVC.m */,
+			);
+			path = RewardVideo;
+			sourceTree = "<group>";
+		};
+		B74AD3B42F8902BB00B0AD11 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3B22F8902BB00B0AD11 /* SplashVC.h */,
+				B74AD3B32F8902BB00B0AD11 /* SplashVC.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B74AD3B52F8902BB00B0AD11 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3A22F8902BB00B0AD11 /* Interstitial */,
+				B74AD3A72F8902BB00B0AD11 /* Native */,
+				B74AD3AE2F8902BB00B0AD11 /* Pubilc */,
+				B74AD3B12F8902BB00B0AD11 /* RewardVideo */,
+				B74AD3B42F8902BB00B0AD11 /* Splash */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B74AD3C92F89039F00B0AD11 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B74AD3C22F89039F00B0AD11 /* CJEntranceCell.h */,
+				B74AD3C32F89039F00B0AD11 /* CJEntranceCell.m */,
+				B74AD3C42F89039F00B0AD11 /* CJEntranceController.h */,
+				B74AD3C52F89039F00B0AD11 /* CJEntranceController.m */,
+				B74AD3C62F89039F00B0AD11 /* CJEntranceHeaderView.h */,
+				B74AD3C72F89039F00B0AD11 /* CJEntranceHeaderView.m */,
+				B74AD3C82F89039F00B0AD11 /* CJMobileAd_Example-Bridging-Header.h */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* LYMobSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LYMobSDK_Example" */;
+			buildPhases = (
+				AD0C3671E3D9447EF4A903F3 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				BD908D0A1E51B8252C7FCF8A /* [CP] Copy Pods Resources */,
+				72540AD0FCE373F84C8CCDAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYMobSDK_Example;
+			productName = LYMobSDK;
+			productReference = 6003F58A195388D20070C39A /* LYMobSDK_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* LYMobSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LYMobSDK_Tests" */;
+			buildPhases = (
+				A733979554A82198D3B708DA /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				559374BC324D021969963C58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = LYMobSDK_Tests;
+			productName = LYMobSDKTests;
+			productReference = 6003F5AE195388D20070C39A /* LYMobSDK_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xjCoder;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Z7A8B379QJ;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LYMobSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* LYMobSDK_Example */,
+				6003F5AD195388D20070C39A /* LYMobSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		559374BC324D021969963C58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Tests/Pods-LYMobSDK_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Tests/Pods-LYMobSDK_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72540AD0FCE373F84C8CCDAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A733979554A82198D3B708DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYMobSDK_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0C3671E3D9447EF4A903F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYMobSDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD908D0A1E51B8252C7FCF8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/CJMobileAd.bundle",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/LingYeAdSDK.bundle",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/LY_adwangmai_sdk.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CJMobileAd.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LingYeAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LY_adwangmai_sdk.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* LYAppDelegate.m in Sources */,
+				B74AD3B62F8902BB00B0AD11 /* CustomCell.m in Sources */,
+				B74AD3C02F8902C600B0AD11 /* SplashAdViewController.m in Sources */,
+				B74AD3B72F8902BB00B0AD11 /* NativeViewController.m in Sources */,
+				B74AD3B82F8902BB00B0AD11 /* InterstitialVC.m in Sources */,
+				B74AD3B92F8902BB00B0AD11 /* RewardVideoVC.m in Sources */,
+				B74AD3BA2F8902BB00B0AD11 /* BaseViewController.m in Sources */,
+				B74AD3BB2F8902BB00B0AD11 /* SplashVC.m in Sources */,
+				B74AD3BC2F8902BB00B0AD11 /* NativeLoaderManager.m in Sources */,
+				B74AD3BD2F8902BB00B0AD11 /* CustomShowView.m in Sources */,
+				6003F5A7195388D20070C39A /* LYViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				B74AD3CA2F89039F00B0AD11 /* CJEntranceController.m in Sources */,
+				B74AD3CB2F89039F00B0AD11 /* CJEntranceCell.m in Sources */,
+				B74AD3CC2F89039F00B0AD11 /* CJEntranceHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* LYMobSDK_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDC99478BE3A97813F31441 /* Pods-LYMobSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z7A8B379QJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYMobSDK/LYMobSDK-Prefix.pch";
+				INFOPLIST_FILE = "LYMobSDK/LYMobSDK-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EDFBF1A550719F15B1E366 /* Pods-LYMobSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z7A8B379QJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LYMobSDK/LYMobSDK-Prefix.pch";
+				INFOPLIST_FILE = "LYMobSDK/LYMobSDK-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA9B825F381405BDD2EFA74 /* Pods-LYMobSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYMobSDK_Example.app/LYMobSDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6322616E83009088D7B810E0 /* Pods-LYMobSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYMobSDK_Example.app/LYMobSDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LYMobSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LYMobSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LYMobSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

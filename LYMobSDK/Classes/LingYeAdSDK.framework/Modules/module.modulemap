@@ -1,0 +1,6 @@
+framework module LingYeAdSDK {
+  umbrella header "LingYeAdSDK.h"
+  export *
+
+  module * { export * }
+}
