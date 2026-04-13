@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYMobSDK'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'LYMobSDK init'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,10 @@ TODO: Add long description of the pod here.
   s.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "CoreGraphics", "Security","AppTrackingTransparency", "SystemConfiguration", "CoreTelephony", "AdSupport", "CoreData", "StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia", "WebKit", "Accelerate", "CoreLocation", "AVKit", "MessageUI", "QuickLook", "AudioToolBox", "JavaScriptCore", "CoreMotion", "Photos"]
   
   s.static_framework = true
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.xcconfig = {
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 armv7 armv7s',
+  'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64'
+  }
+
   
 end
