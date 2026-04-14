@@ -1,9 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'LYMobSDK_Example' do
-  pod 'LYMobSDK', :path => '../'
+#  pod 'LYMobSDK', :path => '../'
+  
+  pod 'LYMobSDK', '1.0.6'
   
   
   pod 'Masonry'

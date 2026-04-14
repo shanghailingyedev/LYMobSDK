@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYMobSDK'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'LYMobSDK init--'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  shanghailingye ad SDK
                        DESC
 
   s.homepage         = 'git@github.com:shanghailingyedev/LYMobSDK.git'
