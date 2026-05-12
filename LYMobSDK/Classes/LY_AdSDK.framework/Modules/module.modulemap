@@ -1,0 +1,6 @@
+framework module LY_AdSDK {
+  umbrella header "LY_AdSDK.h"
+  export *
+
+  module * { export * }
+}

@@ -52,63 +52,67 @@
 		<data>
 		DTwTJZxO2BlxF2MvhSUQmBW82oU=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/ad_close.png</key>
+		<key>LY_AdSDK.bundle/ad_close.png</key>
 		<data>
 		prIOBFjVJ00QoL9iZgzuWFvTyGs=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/ad_identifier.png</key>
+		<key>LY_AdSDK.bundle/ad_identifier.png</key>
 		<data>
-		NpO3ozCneGhAR36Be+U7sZsWBIg=
+		DCuuwZZrw7cQzB/0pfa6eIKn1b0=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/combination_bg.png</key>
+		<key>LY_AdSDK.bundle/btn_play.png</key>
+		<data>
+		JbIkF70hEwGHDkFJ6ghfzu2wrHw=
+		</data>
+		<key>LY_AdSDK.bundle/combination_bg.png</key>
 		<data>
 		r4PgHhk2mwXZgGeZcZZ8SYFsJ5E=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/combination_iphone.png</key>
+		<key>LY_AdSDK.bundle/combination_iphone.png</key>
 		<data>
 		CArBB9HzvzKEfSTsh4u9Mf0i9hw=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/hand_bottom.png</key>
+		<key>LY_AdSDK.bundle/hand_bottom.png</key>
 		<data>
 		A1NkTlDSE48M9xKIMuCmvXkkHsA=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/hand_left.png</key>
+		<key>LY_AdSDK.bundle/hand_left.png</key>
 		<data>
 		lXI06bHetKqBLWYzuQ8UnkawmGo=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/ks_ad_identifier.png</key>
+		<key>LY_AdSDK.bundle/ks_ad_identifier.png</key>
 		<data>
 		IVhfSmAMHkL6QTTA2rWGfqnHhoc=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/mute.png</key>
+		<key>LY_AdSDK.bundle/mute.png</key>
 		<data>
 		DRqLtUYyu5QkQOalK2ymJwDp5tE=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/mute_no.png</key>
+		<key>LY_AdSDK.bundle/mute_no.png</key>
 		<data>
 		Sy1xZWhJPoJE34uVQXjDzsnMN8g=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/shake_bg.png</key>
+		<key>LY_AdSDK.bundle/shake_bg.png</key>
 		<data>
 		I89hL1uJXQiI+RJmahkQDbWq+0E=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/shake_iphone.png</key>
+		<key>LY_AdSDK.bundle/shake_iphone.png</key>
 		<data>
 		AwTtUMTWWie3n8uH226JjxPMF9s=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/slide_background.png</key>
+		<key>LY_AdSDK.bundle/slide_background.png</key>
 		<data>
 		zRQTtzK52HXEdT5Qhvq3lR8G0dw=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/swipe_up.png</key>
+		<key>LY_AdSDK.bundle/swipe_up.png</key>
 		<data>
 		BS8f2wxh2bbusee9tpQbcsP0RZk=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/twist_direction.png</key>
+		<key>LY_AdSDK.bundle/twist_direction.png</key>
 		<data>
 		fOfMVTDL54oVXGNCy4pT6LMkRQo=
 		</data>
-		<key>LY_adwangmai_sdk.bundle/twist_image.png</key>
+		<key>LY_AdSDK.bundle/twist_image.png</key>
 		<data>
 		dWUtbeAP5+14yU9Hn8SSi9kBRHA=
 		</data>
@@ -159,106 +163,6 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		HfpWr4uW3My77hJYbesdg9j+szI=
-		</data>
-		<key>XrsImage.bundle/ad_soundoff@2x.png</key>
-		<data>
-		yL4ONATvyywF33n7D5O9rDb9w3U=
-		</data>
-		<key>XrsImage.bundle/ad_soundoff@3x.png</key>
-		<data>
-		e5OVDwGui6tDLSftQD/mDopQiE8=
-		</data>
-		<key>XrsImage.bundle/ad_soundon@2x.png</key>
-		<data>
-		/K+By6yAS6wvAU6lfvIRRcB6GfE=
-		</data>
-		<key>XrsImage.bundle/ad_soundon@3x.png</key>
-		<data>
-		3qAwTLZgvo2G8kZb5gMHkCweEe0=
-		</data>
-		<key>XrsImage.bundle/back@3x.png</key>
-		<data>
-		grfDyAcXE4ZT/tJ87l/zPqVmHlo=
-		</data>
-		<key>XrsImage.bundle/fanti_ad_default_close.png</key>
-		<data>
-		iqg3u9HMipLMQxjbQyycesYnYuQ=
-		</data>
-		<key>XrsImage.bundle/fanti_ic_mute.png</key>
-		<data>
-		G2ewt7PkUxeGdwGV7zrCRubokfM=
-		</data>
-		<key>XrsImage.bundle/fanti_ic_voice.png</key>
-		<data>
-		S7tZ9TMOh8MLKaU9qQ3g+G02Yvw=
-		</data>
-		<key>XrsImage.bundle/fanti_web_close_normal@3x.png</key>
-		<data>
-		/TybiK/BFDJT1qQiVijffvMAw7g=
-		</data>
-		<key>XrsImage.bundle/feed_close@2x.png</key>
-		<data>
-		5/0xsV5Imh13YWHO6g3XESfqmZE=
-		</data>
-		<key>XrsImage.bundle/feed_close@3x.png</key>
-		<data>
-		Sjq6Bh4m/RPLz19xqTMnQlMEmRI=
-		</data>
-		<key>XrsImage.bundle/feed_web_loading.gif</key>
-		<data>
-		Dl1QIs2y28ktaTBYDi05nSPEOxw=
-		</data>
-		<key>XrsImage.bundle/ft_ad_close_white.png</key>
-		<data>
-		ohID8cYT1pPDsWncSRErxZyHtZI=
-		</data>
-		<key>XrsImage.bundle/ftad_logo.png</key>
-		<data>
-		9ktzHh2o5trUuS5tjfisSKXlfC8=
-		</data>
-		<key>XrsImage.bundle/loding@2x.png</key>
-		<data>
-		EuvqJMyKsi9HnmSe/Wqcj9KAZ5U=
-		</data>
-		<key>XrsImage.bundle/onead_splash_shake.png</key>
-		<data>
-		XvjPZ1QaDvBIX0jW2jfOffYJw9A=
-		</data>
-		<key>XrsImage.bundle/onead_splash_shake_circle.png</key>
-		<data>
-		c/kvgUbngijG4Zo6zJPMLrI9KCo=
-		</data>
-		<key>XrsImage.bundle/pause@2x.png</key>
-		<data>
-		qVqEnmogna0ZNr/AgJew5ScyEZQ=
-		</data>
-		<key>XrsImage.bundle/poor_content_night@3x.png</key>
-		<data>
-		5lo3QIKJlrC3JY+bFhaSTHgKgDA=
-		</data>
-		<key>XrsImage.bundle/poor_content_write@3x.png</key>
-		<data>
-		UZXzzKxnVZhLhV+afpVE6u8z5kA=
-		</data>
-		<key>XrsImage.bundle/shake_mobile@3x.png</key>
-		<data>
-		ZrsMzoxGpHVcW2frD2yApnoecw0=
-		</data>
-		<key>XrsImage.bundle/splash_jump@2x.png</key>
-		<data>
-		oVz+oyIv+KOWZsOBVEDiA4nx2EU=
-		</data>
-		<key>XrsImage.bundle/splash_jump@3x.png</key>
-		<data>
-		AUIK8FerhShkNQEDJCRHW5TwUyE=
-		</data>
-		<key>XrsImage.bundle/uninterested_night@3x.png</key>
-		<data>
-		X90avSGaCWTVRlH3d6Xi3VXaWC4=
-		</data>
-		<key>XrsImage.bundle/uninterested_write@3x.png</key>
-		<data>
-		F7EYE1utlek4bJq2avSec3F/0sE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -384,7 +288,7 @@
 			Q62S4DjhmbdM0mDiJCydFCB7gCWafqg5CPm4mV6MI/E=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/ad_close.png</key>
+		<key>LY_AdSDK.bundle/ad_close.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -395,18 +299,29 @@
 			wf7GDH+UmfIC9Rnv8ql/u0QQ9XsBmLA+H3AKr9eDe1U=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/ad_identifier.png</key>
+		<key>LY_AdSDK.bundle/ad_identifier.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NpO3ozCneGhAR36Be+U7sZsWBIg=
+			DCuuwZZrw7cQzB/0pfa6eIKn1b0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vMij85mb6wEG6eFRTlXXx40cDY91pHsbFcwFRPwid+w=
+			7W2dFrYYnAOH6S8Q/3AHDphyWJaFt+wrz7S1333tW/4=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/combination_bg.png</key>
+		<key>LY_AdSDK.bundle/btn_play.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JbIkF70hEwGHDkFJ6ghfzu2wrHw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tDuOPXTF+HikN0LIVf3gUCJadnVxT8FYJOqkZu8HnmU=
+			</data>
+		</dict>
+		<key>LY_AdSDK.bundle/combination_bg.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -417,7 +332,7 @@
 			BVdAIX4Vyn3uMU5Rqh230dIFFNftQV1JWXrvPB6VfwE=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/combination_iphone.png</key>
+		<key>LY_AdSDK.bundle/combination_iphone.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -428,7 +343,7 @@
 			/grUoS4itxF6U3Kc6ogcHVRYG+jKrQLZwsv+Ig3WGYE=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/hand_bottom.png</key>
+		<key>LY_AdSDK.bundle/hand_bottom.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -439,7 +354,7 @@
 			o+dAoUf3sqLj3YH12lXwPf9vooOhoxyaumECaoNI9yg=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/hand_left.png</key>
+		<key>LY_AdSDK.bundle/hand_left.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -450,7 +365,7 @@
 			UahUOCrpfcETcXRgyNeTfFjz5SrHdxO7VWQSEIS9DDc=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/ks_ad_identifier.png</key>
+		<key>LY_AdSDK.bundle/ks_ad_identifier.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -461,7 +376,7 @@
 			DyyxYYLz1pT50Cuk0KRMelol5aQpLUuBv6VKgY1Vh+4=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/mute.png</key>
+		<key>LY_AdSDK.bundle/mute.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -472,7 +387,7 @@
 			z86jA4VntpgsR1Rk79ZNSBUBSr/9NrvXNdNnCwz43H0=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/mute_no.png</key>
+		<key>LY_AdSDK.bundle/mute_no.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -483,7 +398,7 @@
 			AwP3F6KR8zqO5G5qGXt2D/Xi5vh5eRozhvsLsr0v/uo=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/shake_bg.png</key>
+		<key>LY_AdSDK.bundle/shake_bg.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -494,7 +409,7 @@
 			yfotxpbTMc8BM25AeOg1D7P9UA55qF2Dz/ijmGe/l7c=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/shake_iphone.png</key>
+		<key>LY_AdSDK.bundle/shake_iphone.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -505,7 +420,7 @@
 			Fg2IQhDDlkeposE+fW1N3Z2OCLkE9sfcvOmlaFPsUdU=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/slide_background.png</key>
+		<key>LY_AdSDK.bundle/slide_background.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -516,7 +431,7 @@
 			IhtmYxw7FsAcXUUdGw0jpeAbdwPYeXY2Yeo+dpB3UtM=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/swipe_up.png</key>
+		<key>LY_AdSDK.bundle/swipe_up.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -527,7 +442,7 @@
 			XQM6CbGhbosctXNhbkKx1s1UcxYYvZMlss5pCW6dOEk=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/twist_direction.png</key>
+		<key>LY_AdSDK.bundle/twist_direction.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -538,7 +453,7 @@
 			e7MY7Jd+RGezOJlwuvrQCTckcrLSUUAJlgBdTFGH8ks=
 			</data>
 		</dict>
-		<key>LY_adwangmai_sdk.bundle/twist_image.png</key>
+		<key>LY_AdSDK.bundle/twist_image.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -679,281 +594,6 @@
 			<key>hash2</key>
 			<data>
 			HrqALEat/2fpIrWVO03jMVtvAKnV73heiM2xCkew2I0=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/ad_soundoff@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yL4ONATvyywF33n7D5O9rDb9w3U=
-			</data>
-			<key>hash2</key>
-			<data>
-			MO+vzz1KJZJ+yWsBdEmJkb1iiY5Lu1RuzRY3fwqe0zk=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/ad_soundoff@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			e5OVDwGui6tDLSftQD/mDopQiE8=
-			</data>
-			<key>hash2</key>
-			<data>
-			74mJC/AvOiNjJo1/iI76Dc5kcqDLSNwM6+w+DkMyfks=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/ad_soundon@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/K+By6yAS6wvAU6lfvIRRcB6GfE=
-			</data>
-			<key>hash2</key>
-			<data>
-			2Rnh1izvY/VIkCpsIFNkF+mEdXPa905GG0ffWtwfDHc=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/ad_soundon@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3qAwTLZgvo2G8kZb5gMHkCweEe0=
-			</data>
-			<key>hash2</key>
-			<data>
-			jla0e5wFZJoShipZmfLZ/827cz5olLW8YHU75GFlyBk=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/back@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			grfDyAcXE4ZT/tJ87l/zPqVmHlo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ek55B/F3QGG1p1vPephLQ4wFqfgQkfdDC4EVy3XwQOY=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/fanti_ad_default_close.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iqg3u9HMipLMQxjbQyycesYnYuQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			Y+bQqLrWiWYfRyGkB26nXnAA+YP5Xo2VDdZk3mlkx+Q=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/fanti_ic_mute.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G2ewt7PkUxeGdwGV7zrCRubokfM=
-			</data>
-			<key>hash2</key>
-			<data>
-			G03V08cUX8JIs4cXMXlAojNnHHeIF+D5lqetHJqLMtc=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/fanti_ic_voice.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S7tZ9TMOh8MLKaU9qQ3g+G02Yvw=
-			</data>
-			<key>hash2</key>
-			<data>
-			2flD65upXEh+iJDO3d8N9hhl37O5ZhMxU3cSM8kJDoI=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/fanti_web_close_normal@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/TybiK/BFDJT1qQiVijffvMAw7g=
-			</data>
-			<key>hash2</key>
-			<data>
-			95A5WJq4znvl4jZhD4+8hTrpQQNc1ni3KzZWFAFxBCk=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/feed_close@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5/0xsV5Imh13YWHO6g3XESfqmZE=
-			</data>
-			<key>hash2</key>
-			<data>
-			H5UN3dbRTtn2HIZdSFzme2W2VkgiDqojYmDzeoHvU9U=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/feed_close@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Sjq6Bh4m/RPLz19xqTMnQlMEmRI=
-			</data>
-			<key>hash2</key>
-			<data>
-			lIPI7/OgDosXN/GGu4daiO+P1b5JU6TH6W4WT9dLRm0=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/feed_web_loading.gif</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Dl1QIs2y28ktaTBYDi05nSPEOxw=
-			</data>
-			<key>hash2</key>
-			<data>
-			EuF+aUtBUGA6zKulfvq4NKBeM5+reGXMU5QRHnkGqDA=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/ft_ad_close_white.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ohID8cYT1pPDsWncSRErxZyHtZI=
-			</data>
-			<key>hash2</key>
-			<data>
-			mUBjXpj8BFWNMnG4cyWGxajZMkvcGnt9NPyTkleAa3c=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/ftad_logo.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9ktzHh2o5trUuS5tjfisSKXlfC8=
-			</data>
-			<key>hash2</key>
-			<data>
-			3rV312Oq0skti/AQHUwI0GYBsTp8HfvVDgpqAjVhbBo=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/loding@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EuvqJMyKsi9HnmSe/Wqcj9KAZ5U=
-			</data>
-			<key>hash2</key>
-			<data>
-			cbDciTzJr7xS9Pvd9CVnSPOg9L0H3PDyRewKwcL1Tfc=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/onead_splash_shake.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XvjPZ1QaDvBIX0jW2jfOffYJw9A=
-			</data>
-			<key>hash2</key>
-			<data>
-			QTSXgeFMhrBftmpRo8UgPhzL0pIYAPN1dr+wOtAxwPc=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/onead_splash_shake_circle.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c/kvgUbngijG4Zo6zJPMLrI9KCo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q+1XLLUTIRPVcbuWNLrKrYLG1KH4c6Cfjqwjq0XgnZo=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/pause@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qVqEnmogna0ZNr/AgJew5ScyEZQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			i+RE4Cqch79zWlo4HYgMp7lfRAS1mIHDWvMPFKfX75Q=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/poor_content_night@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5lo3QIKJlrC3JY+bFhaSTHgKgDA=
-			</data>
-			<key>hash2</key>
-			<data>
-			Jbw+VHl1q5JysaBrT8/Zp2BCDZ1drr8Ite6+7OZ/wtE=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/poor_content_write@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UZXzzKxnVZhLhV+afpVE6u8z5kA=
-			</data>
-			<key>hash2</key>
-			<data>
-			xynESH+nbXBQRLi58zNqAOHjizy+CNjq2LG08wVO76k=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/shake_mobile@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZrsMzoxGpHVcW2frD2yApnoecw0=
-			</data>
-			<key>hash2</key>
-			<data>
-			VxLeykE+rOf1ffdaT6kI8MOvQy11JgeXEdy8dImFJHM=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/splash_jump@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oVz+oyIv+KOWZsOBVEDiA4nx2EU=
-			</data>
-			<key>hash2</key>
-			<data>
-			HWfDBE3J8xRxLnkuljbiLAcnnwopjAUcWFSlXo/MKic=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/splash_jump@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AUIK8FerhShkNQEDJCRHW5TwUyE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Yq7iZdFS3ren86Iryp9mG9HJA8dfx9w7A6vWtsu6Zjc=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/uninterested_night@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X90avSGaCWTVRlH3d6Xi3VXaWC4=
-			</data>
-			<key>hash2</key>
-			<data>
-			kc0abCxj52AynTBScxDTn1Fq/C1NZZ/UOG5TiXTNcdc=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/uninterested_write@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F7EYE1utlek4bJq2avSec3F/0sE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Fx5iMEqOZYXxBcIV0uLLLgsNh2OGOlOLyAlVcDw9QwU=
 			</data>
 		</dict>
 	</dict>
