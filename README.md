@@ -20,9 +20,16 @@ it, simply add the following line to your Podfile:
 pod 'LYMobSDK'
 ```
 
+## History
+| **版本号** | **更新日期** | **更新内容** | 
+|---------|-------------|----------｜
+| 1.0.0 | 2026-05-12     | pod从ssh更改为https |
+| 1.0.7 | 2026-04-14     | 添加对应SDK及测试 |
+| 1.0.0 | 2026-04-13     | 创建github版本 |
+
 ## Author
 
-xjCoder, xj250323489@163.com
+上海领页广告
 
 ## License
 
