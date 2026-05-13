@@ -75,6 +75,10 @@ NS_ASSUME_NONNULL_BEGIN
                             extend:(NSString *)extend
                   verificationMode:(NSInteger)mode;
 
+/// 回传拓展参数（加载成功-达成奖励之前）
+/// - Parameter extend: 扩展参数
+- (void)setExtend:(NSString *)extend;
+
 /// 是否静音
 /// - Parameter mute: 默认值false：不静音
 /// ⚠️：需要在load之前进行设置才会生效，默认静音会影响激励视频单价

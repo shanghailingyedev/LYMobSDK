@@ -4,9 +4,9 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'LYMobSDK_Example' do
-#  pod 'LYMobSDK', :path => '../'
+  pod 'LYMobSDK', :path => '../'
   
-  pod 'LYMobSDK', '1.0.8'
+#  pod 'LYMobSDK', '1.0.8'
   
   
   pod 'Masonry'

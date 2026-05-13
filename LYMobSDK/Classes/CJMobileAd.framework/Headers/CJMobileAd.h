@@ -23,6 +23,12 @@ FOUNDATION_EXPORT const unsigned char CJMobileAdVersionString[];
 #import <CJMobileAd/CJFullscreenVideoAd.h>
 #import <CJMobileAd/CJNativeAd.h>
 #import <CJMobileAd/CJBannerAd.h>
+#import <CJMobileAd/CJServiceAd.h>
 #import <CJMobileAd/CJShortVideoAd.h>
 #import <CJMobileAd/CJSceneRequest.h>
 #import <CJMobileAd/CJSceneManager.h>
+
+//#import <CJMobileAd/CJDrawNative.h>
+//#import <CJMobileAd/CJFeedNativeAd.h>
+//#import <CJMobileAd/CJFeedAdMaterial.h>
+//#import <CJMobileAd/CJFeedNaiveConfig.h>
