@@ -59,6 +59,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJRewardVideoAd : NSObject
 
+/// 判断广告是否有效（展示前判断）
+@property (nonatomic, assign, readonly) BOOL isReady;
+
 @property (nonatomic,weak) id <CJRewardVideoAdDelegate> delegate;
 
 // 无奖励验证
@@ -74,6 +77,10 @@ NS_ASSUME_NONNULL_BEGIN
                             userId:(NSString *)userId
                             extend:(NSString *)extend
                   verificationMode:(NSInteger)mode;
+
+/// 回传拓展参数（加载成功-达成奖励之前）
+/// - Parameter extend: 扩展参数
+- (void)setExtend:(NSString *)extend;
 
 /// 是否静音
 /// - Parameter mute: 默认值false：不静音

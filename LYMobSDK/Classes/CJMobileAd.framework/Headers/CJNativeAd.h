@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id <CJNativeAdDelegate> delegate;
 
+/// 判断广告是否有效（展示前判断）
+@property (nonatomic, assign, readonly) BOOL isReady;
+
 /// 广告位ID
 @property (nonatomic, readonly, copy) NSString *resourceId;
 

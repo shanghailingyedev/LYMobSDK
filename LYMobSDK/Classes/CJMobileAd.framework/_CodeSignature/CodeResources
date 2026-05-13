@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/CJBannerAd.h</key>
 		<data>
-		MsAjBjdyLheN9SxhDqPXITHFC0s=
+		FRbjVBV3UK/mE9HGuFU7lW+7r1I=
 		</data>
 		<key>Headers/CJFullscreenVideoAd.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Headers/CJInterstitialAd.h</key>
 		<data>
-		LCdCq+RQDq4hgwEQkfB1bQAY0mE=
+		+YY7uXqY/Z79tNhOexSCZD1KUuA=
 		</data>
 		<key>Headers/CJMobileAd.h</key>
 		<data>
-		8+gNQMIiJtzsTc22V9LINS8cYbg=
+		QgIz9KUHdHuJcEGWRlQBOi6Qdis=
 		</data>
 		<key>Headers/CJNativeAd.h</key>
 		<data>
-		8QD/KlR1aOL/iklqtX1HcFNfDZE=
+		0qyyHawWiQOv7gu1Mh+HkXieg64=
 		</data>
 		<key>Headers/CJRewardVideoAd.h</key>
 		<data>
-		Sd6eauFu/59baooRI9CpmIv6BBM=
+		z67rAQCWBv070Zvbxuk4FWlbsko=
 		</data>
 		<key>Headers/CJSceneManager.h</key>
 		<data>
@@ -40,17 +40,21 @@
 		<data>
 		SeWIo8ard63GMCVqSwzJsrHa6Vg=
 		</data>
+		<key>Headers/CJServiceAd.h</key>
+		<data>
+		XvGYy46TOZXE3fQeWAwK4uYUK3Q=
+		</data>
 		<key>Headers/CJShortVideoAd.h</key>
 		<data>
 		J5GVt5kHR45pACwsdktcOFkTe4U=
 		</data>
 		<key>Headers/CJSplashAd.h</key>
 		<data>
-		8sMOaM8P8MDTWmB2+Oyg/Nqpc1o=
+		ny26OnosmPEAokP7b5K1rYvVClw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DTwTJZxO2BlxF2MvhSUQmBW82oU=
+		WR4cN1Wlq5OP4vxzzbcZDlV6pgA=
 		</data>
 		<key>LY_AdSDK.bundle/ad_close.png</key>
 		<data>
@@ -164,6 +168,106 @@
 		<data>
 		HfpWr4uW3My77hJYbesdg9j+szI=
 		</data>
+		<key>XrsImage.bundle/ad_soundoff@2x.png</key>
+		<data>
+		yL4ONATvyywF33n7D5O9rDb9w3U=
+		</data>
+		<key>XrsImage.bundle/ad_soundoff@3x.png</key>
+		<data>
+		e5OVDwGui6tDLSftQD/mDopQiE8=
+		</data>
+		<key>XrsImage.bundle/ad_soundon@2x.png</key>
+		<data>
+		/K+By6yAS6wvAU6lfvIRRcB6GfE=
+		</data>
+		<key>XrsImage.bundle/ad_soundon@3x.png</key>
+		<data>
+		3qAwTLZgvo2G8kZb5gMHkCweEe0=
+		</data>
+		<key>XrsImage.bundle/back@3x.png</key>
+		<data>
+		grfDyAcXE4ZT/tJ87l/zPqVmHlo=
+		</data>
+		<key>XrsImage.bundle/fanti_ad_default_close.png</key>
+		<data>
+		iqg3u9HMipLMQxjbQyycesYnYuQ=
+		</data>
+		<key>XrsImage.bundle/fanti_ic_mute.png</key>
+		<data>
+		G2ewt7PkUxeGdwGV7zrCRubokfM=
+		</data>
+		<key>XrsImage.bundle/fanti_ic_voice.png</key>
+		<data>
+		S7tZ9TMOh8MLKaU9qQ3g+G02Yvw=
+		</data>
+		<key>XrsImage.bundle/fanti_web_close_normal@3x.png</key>
+		<data>
+		/TybiK/BFDJT1qQiVijffvMAw7g=
+		</data>
+		<key>XrsImage.bundle/feed_close@2x.png</key>
+		<data>
+		5/0xsV5Imh13YWHO6g3XESfqmZE=
+		</data>
+		<key>XrsImage.bundle/feed_close@3x.png</key>
+		<data>
+		Sjq6Bh4m/RPLz19xqTMnQlMEmRI=
+		</data>
+		<key>XrsImage.bundle/feed_web_loading.gif</key>
+		<data>
+		Dl1QIs2y28ktaTBYDi05nSPEOxw=
+		</data>
+		<key>XrsImage.bundle/ft_ad_close_white.png</key>
+		<data>
+		ohID8cYT1pPDsWncSRErxZyHtZI=
+		</data>
+		<key>XrsImage.bundle/ftad_logo.png</key>
+		<data>
+		9ktzHh2o5trUuS5tjfisSKXlfC8=
+		</data>
+		<key>XrsImage.bundle/loding@2x.png</key>
+		<data>
+		EuvqJMyKsi9HnmSe/Wqcj9KAZ5U=
+		</data>
+		<key>XrsImage.bundle/onead_splash_shake.png</key>
+		<data>
+		XvjPZ1QaDvBIX0jW2jfOffYJw9A=
+		</data>
+		<key>XrsImage.bundle/onead_splash_shake_circle.png</key>
+		<data>
+		c/kvgUbngijG4Zo6zJPMLrI9KCo=
+		</data>
+		<key>XrsImage.bundle/pause@2x.png</key>
+		<data>
+		qVqEnmogna0ZNr/AgJew5ScyEZQ=
+		</data>
+		<key>XrsImage.bundle/poor_content_night@3x.png</key>
+		<data>
+		5lo3QIKJlrC3JY+bFhaSTHgKgDA=
+		</data>
+		<key>XrsImage.bundle/poor_content_write@3x.png</key>
+		<data>
+		UZXzzKxnVZhLhV+afpVE6u8z5kA=
+		</data>
+		<key>XrsImage.bundle/shake_mobile@3x.png</key>
+		<data>
+		ZrsMzoxGpHVcW2frD2yApnoecw0=
+		</data>
+		<key>XrsImage.bundle/splash_jump@2x.png</key>
+		<data>
+		oVz+oyIv+KOWZsOBVEDiA4nx2EU=
+		</data>
+		<key>XrsImage.bundle/splash_jump@3x.png</key>
+		<data>
+		AUIK8FerhShkNQEDJCRHW5TwUyE=
+		</data>
+		<key>XrsImage.bundle/uninterested_night@3x.png</key>
+		<data>
+		X90avSGaCWTVRlH3d6Xi3VXaWC4=
+		</data>
+		<key>XrsImage.bundle/uninterested_write@3x.png</key>
+		<data>
+		F7EYE1utlek4bJq2avSec3F/0sE=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -182,11 +286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MsAjBjdyLheN9SxhDqPXITHFC0s=
+			FRbjVBV3UK/mE9HGuFU7lW+7r1I=
 			</data>
 			<key>hash2</key>
 			<data>
-			9L0tLvG0/8NgyHeHLVW1OzB3P/u7rMADDkKccIKB8Rg=
+			GmYW/ZxR1e8Py8J3dj2IbrXKYauEIvL/Q/PpZLzNXvo=
 			</data>
 		</dict>
 		<key>Headers/CJFullscreenVideoAd.h</key>
@@ -204,44 +308,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LCdCq+RQDq4hgwEQkfB1bQAY0mE=
+			+YY7uXqY/Z79tNhOexSCZD1KUuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			KhZ7xb6ou0SOE1YGIW4NTfD5Nyb/Re8STcA+M4Db9pg=
+			2l+yGBhissr2cBZoipIHkmdW8qffHVdbqNGvI57HOOs=
 			</data>
 		</dict>
 		<key>Headers/CJMobileAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8+gNQMIiJtzsTc22V9LINS8cYbg=
+			QgIz9KUHdHuJcEGWRlQBOi6Qdis=
 			</data>
 			<key>hash2</key>
 			<data>
-			V6u88BpuJZNx8mB5HcsvDhFtlOLVQhi8ztGUbOIFcpo=
+			72RZZboWXwQyzrXsYIa8vW4/SosXLKi2XsBuG2hC0Yk=
 			</data>
 		</dict>
 		<key>Headers/CJNativeAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8QD/KlR1aOL/iklqtX1HcFNfDZE=
+			0qyyHawWiQOv7gu1Mh+HkXieg64=
 			</data>
 			<key>hash2</key>
 			<data>
-			yY0LD6PaWy2+cmUW+DRpndFnUuELAXIEi/nD3pc1gcg=
+			em71UIS9U8YDGEyzH4JtCd26jFM1yQ3XgelkvJcqX9E=
 			</data>
 		</dict>
 		<key>Headers/CJRewardVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sd6eauFu/59baooRI9CpmIv6BBM=
+			z67rAQCWBv070Zvbxuk4FWlbsko=
 			</data>
 			<key>hash2</key>
 			<data>
-			KTmyoO4h2b2I/kR8uImtYpdAreLUOVq7X9TQYS3qbzM=
+			M4CPkbYtqMLrsYMRS2k+Cq72JtRaZFF2NIIVhyyVVgI=
 			</data>
 		</dict>
 		<key>Headers/CJSceneManager.h</key>
@@ -266,6 +370,17 @@
 			fSxkMKlMd9TEqhbhXVsgdQ6y34riCjlu19VAvsKt9WE=
 			</data>
 		</dict>
+		<key>Headers/CJServiceAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XvGYy46TOZXE3fQeWAwK4uYUK3Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			+yaaEl4+82uOsm4tVsC3PSTyC7dsyhrXI7RyFv+994w=
+			</data>
+		</dict>
 		<key>Headers/CJShortVideoAd.h</key>
 		<dict>
 			<key>hash</key>
@@ -281,11 +396,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8sMOaM8P8MDTWmB2+Oyg/Nqpc1o=
+			ny26OnosmPEAokP7b5K1rYvVClw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q62S4DjhmbdM0mDiJCydFCB7gCWafqg5CPm4mV6MI/E=
+			pQuqYeRnbd1wlVwCSQqeDl4LtYuByFtCphTIHN31I4w=
 			</data>
 		</dict>
 		<key>LY_AdSDK.bundle/ad_close.png</key>
@@ -594,6 +709,281 @@
 			<key>hash2</key>
 			<data>
 			HrqALEat/2fpIrWVO03jMVtvAKnV73heiM2xCkew2I0=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/ad_soundoff@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yL4ONATvyywF33n7D5O9rDb9w3U=
+			</data>
+			<key>hash2</key>
+			<data>
+			MO+vzz1KJZJ+yWsBdEmJkb1iiY5Lu1RuzRY3fwqe0zk=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/ad_soundoff@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e5OVDwGui6tDLSftQD/mDopQiE8=
+			</data>
+			<key>hash2</key>
+			<data>
+			74mJC/AvOiNjJo1/iI76Dc5kcqDLSNwM6+w+DkMyfks=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/ad_soundon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/K+By6yAS6wvAU6lfvIRRcB6GfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			2Rnh1izvY/VIkCpsIFNkF+mEdXPa905GG0ffWtwfDHc=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/ad_soundon@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3qAwTLZgvo2G8kZb5gMHkCweEe0=
+			</data>
+			<key>hash2</key>
+			<data>
+			jla0e5wFZJoShipZmfLZ/827cz5olLW8YHU75GFlyBk=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/back@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			grfDyAcXE4ZT/tJ87l/zPqVmHlo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ek55B/F3QGG1p1vPephLQ4wFqfgQkfdDC4EVy3XwQOY=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/fanti_ad_default_close.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iqg3u9HMipLMQxjbQyycesYnYuQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y+bQqLrWiWYfRyGkB26nXnAA+YP5Xo2VDdZk3mlkx+Q=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/fanti_ic_mute.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G2ewt7PkUxeGdwGV7zrCRubokfM=
+			</data>
+			<key>hash2</key>
+			<data>
+			G03V08cUX8JIs4cXMXlAojNnHHeIF+D5lqetHJqLMtc=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/fanti_ic_voice.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S7tZ9TMOh8MLKaU9qQ3g+G02Yvw=
+			</data>
+			<key>hash2</key>
+			<data>
+			2flD65upXEh+iJDO3d8N9hhl37O5ZhMxU3cSM8kJDoI=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/fanti_web_close_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/TybiK/BFDJT1qQiVijffvMAw7g=
+			</data>
+			<key>hash2</key>
+			<data>
+			95A5WJq4znvl4jZhD4+8hTrpQQNc1ni3KzZWFAFxBCk=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/feed_close@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5/0xsV5Imh13YWHO6g3XESfqmZE=
+			</data>
+			<key>hash2</key>
+			<data>
+			H5UN3dbRTtn2HIZdSFzme2W2VkgiDqojYmDzeoHvU9U=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/feed_close@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sjq6Bh4m/RPLz19xqTMnQlMEmRI=
+			</data>
+			<key>hash2</key>
+			<data>
+			lIPI7/OgDosXN/GGu4daiO+P1b5JU6TH6W4WT9dLRm0=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/feed_web_loading.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dl1QIs2y28ktaTBYDi05nSPEOxw=
+			</data>
+			<key>hash2</key>
+			<data>
+			EuF+aUtBUGA6zKulfvq4NKBeM5+reGXMU5QRHnkGqDA=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/ft_ad_close_white.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ohID8cYT1pPDsWncSRErxZyHtZI=
+			</data>
+			<key>hash2</key>
+			<data>
+			mUBjXpj8BFWNMnG4cyWGxajZMkvcGnt9NPyTkleAa3c=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/ftad_logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9ktzHh2o5trUuS5tjfisSKXlfC8=
+			</data>
+			<key>hash2</key>
+			<data>
+			3rV312Oq0skti/AQHUwI0GYBsTp8HfvVDgpqAjVhbBo=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/loding@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EuvqJMyKsi9HnmSe/Wqcj9KAZ5U=
+			</data>
+			<key>hash2</key>
+			<data>
+			cbDciTzJr7xS9Pvd9CVnSPOg9L0H3PDyRewKwcL1Tfc=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/onead_splash_shake.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XvjPZ1QaDvBIX0jW2jfOffYJw9A=
+			</data>
+			<key>hash2</key>
+			<data>
+			QTSXgeFMhrBftmpRo8UgPhzL0pIYAPN1dr+wOtAxwPc=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/onead_splash_shake_circle.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c/kvgUbngijG4Zo6zJPMLrI9KCo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q+1XLLUTIRPVcbuWNLrKrYLG1KH4c6Cfjqwjq0XgnZo=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/pause@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qVqEnmogna0ZNr/AgJew5ScyEZQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			i+RE4Cqch79zWlo4HYgMp7lfRAS1mIHDWvMPFKfX75Q=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/poor_content_night@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5lo3QIKJlrC3JY+bFhaSTHgKgDA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jbw+VHl1q5JysaBrT8/Zp2BCDZ1drr8Ite6+7OZ/wtE=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/poor_content_write@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UZXzzKxnVZhLhV+afpVE6u8z5kA=
+			</data>
+			<key>hash2</key>
+			<data>
+			xynESH+nbXBQRLi58zNqAOHjizy+CNjq2LG08wVO76k=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/shake_mobile@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZrsMzoxGpHVcW2frD2yApnoecw0=
+			</data>
+			<key>hash2</key>
+			<data>
+			VxLeykE+rOf1ffdaT6kI8MOvQy11JgeXEdy8dImFJHM=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/splash_jump@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oVz+oyIv+KOWZsOBVEDiA4nx2EU=
+			</data>
+			<key>hash2</key>
+			<data>
+			HWfDBE3J8xRxLnkuljbiLAcnnwopjAUcWFSlXo/MKic=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/splash_jump@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AUIK8FerhShkNQEDJCRHW5TwUyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yq7iZdFS3ren86Iryp9mG9HJA8dfx9w7A6vWtsu6Zjc=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/uninterested_night@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X90avSGaCWTVRlH3d6Xi3VXaWC4=
+			</data>
+			<key>hash2</key>
+			<data>
+			kc0abCxj52AynTBScxDTn1Fq/C1NZZ/UOG5TiXTNcdc=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/uninterested_write@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F7EYE1utlek4bJq2avSec3F/0sE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fx5iMEqOZYXxBcIV0uLLLgsNh2OGOlOLyAlVcDw9QwU=
 			</data>
 		</dict>
 	</dict>

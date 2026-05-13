@@ -509,9 +509,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example-resources.sh",
-				"${PODS_ROOT}/LYMobSDK/LYMobSDK/Assets/CJMobileAd.bundle",
-				"${PODS_ROOT}/LYMobSDK/LYMobSDK/Assets/LingYeAdSDK.bundle",
-				"${PODS_ROOT}/LYMobSDK/LYMobSDK/Assets/LY_AdSDK.bundle",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/CJMobileAd.bundle",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/LingYeAdSDK.bundle",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/LY_AdSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
