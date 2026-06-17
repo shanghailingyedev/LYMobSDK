@@ -9,6 +9,9 @@
 #import <LingYeAdSDK/LingYeSourceAdType.h>
 #import <LingYeAdSDK/LingYeBidReason.h>
 #import <LingYeAdSDK/LingYeAdMaterial.h>
+#import <LingYeAdSDK/LingYeAdSlot.h>
+
+
 @class LingYeSplashAd;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -115,6 +118,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// 通知广告平台的广告竞败
 /// @param bidLossReason 竞败原因
 - (void)notifyBidLoss:(LingYeBidReason *)bidLossReason;
+
+#pragma mark - service bid -
+/// 初始化
+/// LingYeAdSlot 广告id
+- (instancetype)initWithSlot:(LingYeAdSlot *)slot NS_DESIGNATED_INITIALIZER;
+
+/// 获取bidging token
+/// 通过initWithSlot方法构造后，获取biddingToken 并请求adx 获取adm
+- (nullable NSString *)biddingToken;
+
+///  获取到adm数据后调用，Adm赋值调⽤后⽆需调⽤load⽅法，直接在相关回调⾥等候响应即可
+- (void)setMopubAdMarkUp:(NSString *)adm;
+
+
 
 @end
 

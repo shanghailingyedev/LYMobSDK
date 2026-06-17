@@ -42,9 +42,7 @@
 }
 
 - (void)setupSDK {
-    [CJADManager setEnableShake:false];
     [CJADManager openDebugLog];
-    NSLog(@"thread----current---%@", [NSThread currentThread]);
     [CJADManager configure:appID completeHandle:^(BOOL success, NSError * _Nullable error) {
         if (success) {
             dispatch_async(dispatch_get_main_queue(), ^{

@@ -58,6 +58,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showFromRootViewController:(UIViewController *)rootViewController;
 
+/// 获取请求唯一ID
+- (NSString *)getRequestId;
+
 - (NSString *)getAdType;
 
 - (NSInteger)getECpm;

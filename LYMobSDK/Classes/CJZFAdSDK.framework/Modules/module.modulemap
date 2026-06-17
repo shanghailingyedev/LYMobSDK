@@ -1,0 +1,6 @@
+framework module CJZFAdSDK {
+  umbrella header "CJZFAdSDK.h"
+
+  export *
+  module * { export * }
+}

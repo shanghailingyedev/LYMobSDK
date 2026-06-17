@@ -10,6 +10,8 @@
 #import <LingYeAdSDK/LingYeBidReason.h>
 #import <LingYeAdSDK/LingYeAdMaterial.h>
 #import <LingYeAdSDK/LingYeRewardedVideoModel.h>
+#import <LingYeAdSDK/LingYeAdSlot.h>
+
 @class LingYeNativeExpressRewardVideoAd;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -29,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)lingye_rewardVideoAdDidExposed:(LingYeNativeExpressRewardVideoAd *)rewardVideoAd;
 
 /// 激励广告曝光失败
-- (void)lingye_rewardVideoAdExposedFail:(LingYeNativeExpressRewardVideoAd *)rewardVideoAd error:(NSError *)error;;
+- (void)lingye_rewardVideoAdExposedFail:(LingYeNativeExpressRewardVideoAd *)rewardVideoAd error:(NSError *)error;
 
 /// 激励广告关闭
 - (void)lingye_rewardVideoAdDidClose:(LingYeNativeExpressRewardVideoAd *)rewardVideoAd;
@@ -98,6 +100,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// 通知广告平台的广告竞败
 /// @param bidLossReason 竞败原因
 - (void)notifyBidLoss:(LingYeBidReason *)bidLossReason;
+
+#pragma mark - service bid -
+/// 初始化
+/// LingYeAdSlot 广告id
+- (instancetype)initWithSlot:(LingYeAdSlot *)slot NS_DESIGNATED_INITIALIZER;
+
+/// 获取bidging token
+/// 通过initWithSlot方法构造后，获取biddingToken 并请求adx 获取adm
+- (nullable NSString *)biddingToken;
+
+///  获取到adm数据后调用，Adm赋值调⽤后⽆需调⽤load⽅法，直接在相关回调⾥等候响应即可
+- (void)setMopubAdMarkUp:(NSString *)adm;
+
+
 
 @end
 

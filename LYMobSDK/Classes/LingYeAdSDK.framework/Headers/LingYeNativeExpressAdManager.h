@@ -8,12 +8,14 @@
 #import <Foundation/Foundation.h>
 #import "LingYeNativeExpressAd.h"
 #import <LingYeAdSDK/LingYeBidReason.h>
+#import <LingYeAdSDK/LingYeAdSlot.h>
+
+
 @class LingYeNativeExpressAdManager;
 
 NS_ASSUME_NONNULL_BEGIN
 
 typedef enum : NSUInteger {
-    LingYeNativeExpressAdTypeDraw,  // draw视频信息流
     LingYeNativeExpressAdTypeSelfRender, // 自渲染
     LingYeNativeExpressAdTypeFeed,  // 普通模板信息流
     LingYeNativeExpressAdTypeSelfRenderSplash // 自渲染开屏
@@ -94,7 +96,7 @@ typedef enum : NSUInteger {
 /// 初始化方法
 /// @param placementId 广告id
 /// @param type 广告type
-/// @param adSize 广告尺寸,LingYeNativeExpressAdTypeFeed 类型根据宽度自适应，可将高度直接设置为0 LingYeNativeExpressAdTypeDraw类型传入屏幕的宽高
+/// @param adSize 广告尺寸,LingYeNativeExpressAdTypeFeed 类型根据宽度自适应，可将高度直接设置为0
 - (instancetype)initWithPlacementId:(nonnull NSString *)placementId type:(LingYeNativeExpressAdType)type adSize:(CGSize)adSize NS_DESIGNATED_INITIALIZER;
 
 /// 加载广告
@@ -107,6 +109,19 @@ typedef enum : NSUInteger {
 /// 通知广告平台的广告竞败
 /// @param bidLossReason 竞败原因
 - (void)notifyBidLoss:(LingYeBidReason *)bidLossReason;
+
+#pragma mark - service bid -
+/// 初始化
+/// LingYeAdSlot 广告id
+- (instancetype)initWithSlot:(LingYeAdSlot *)slot type:(LingYeNativeExpressAdType)type adSize:(CGSize)adSize NS_DESIGNATED_INITIALIZER;
+
+/// 获取bidging token
+/// 通过initWithSlot方法构造后，获取biddingToken 并请求adx 获取adm
+- (nullable NSString *)biddingToken;
+
+///  获取到adm数据后调用，Adm赋值调⽤后⽆需调⽤load⽅法，直接在相关回调⾥等候响应即可
+- (void)setMopubAdMarkUp:(NSString *)adm;
+
 
 @end
 

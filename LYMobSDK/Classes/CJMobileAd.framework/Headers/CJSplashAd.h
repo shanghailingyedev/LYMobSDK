@@ -55,9 +55,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJSplashAd : NSObject
 
-/// 判断广告是否有效（展示前判断）
-@property (nonatomic, assign, readonly) BOOL isReady;
-
 @property (nonatomic, weak) id <CJSplashAdDelegate> delegate;
 
 /// 初始化开屏
@@ -75,6 +72,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示广告：请在加载成功之后调用
 /// - Parameter window: 当前最外层window
 - (void)showSplashAdToWindow:(UIWindow *)window;
+
+/// 获取唯一ID
+- (NSString *)getRequestId;
 
 /// 加载成功时获取有效
 - (NSInteger)getECpm;
