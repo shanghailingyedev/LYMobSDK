@@ -25,8 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) CJZFAdapterCommonReportMark *mark;
 
-@property (nonatomic, strong) CJZFChannelAdData *adData;
-
 @property (nonatomic, assign) NSInteger countDown;
 
 @property (nonatomic, assign) BOOL customLoadingPage;
@@ -36,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void (^clickReport)(CGPoint sPoint, CGPoint point, CGSize size, NSString *adType);
 
+- (void)setNativeAdData:(CJZFChannelAdData *)adData;
 
 @end
 
@@ -51,7 +50,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)channelNativeAdViewErrorReport:(CJZFChannelNativeAdView *)adView error:(NSError *)error;
 
-@optional
 - (UIViewController *)channelAdViewController;
 
 - (CJZFAdSDKLandingPageType)channelAdViewLandingPageType;

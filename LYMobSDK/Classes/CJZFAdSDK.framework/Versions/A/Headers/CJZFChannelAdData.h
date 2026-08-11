@@ -6,12 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 #if __has_include(<CJZFAdSDK-Kit/CJZFUtilsKit.h>)
 #import <CJZFAdSDK-Kit/CJZFUtilsKit.h>
 #else
 #import "CJZFUtilsKit.h"
 #endif
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CJZFChannelAdVideoEndCardData : NSObject
@@ -96,6 +96,8 @@ FOUNDATION_EXPORT CJZFChannelMoment _Nonnull const CJZFChannelMomentBefore;
 
 @interface CJZFChannelAdData : NSObject
 
+@property (nonatomic, copy) NSString *posid;
+
 @property (nonatomic, copy) NSString *ldp;
 
 @property (nonatomic, copy) NSString *deeplink;
@@ -143,6 +145,8 @@ FOUNDATION_EXPORT CJZFChannelMoment _Nonnull const CJZFChannelMomentBefore;
 - (instancetype)initModelWithJson:(NSDictionary *)json NS_DESIGNATED_INITIALIZER;
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)new NS_UNAVAILABLE;
+
+- (void)setAdDataPosid:(NSString *)posid;
 
 - (BOOL)isAdValid;
 

@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CJZFChannelCommonAd.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CJZFChannelInterstitialAd : NSObject
+@interface CJZFChannelInterstitialAd : CJZFChannelCommonAd
 
 @end
 

@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CJZFAdSDKSplashAdDelegate;
@@ -28,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 */
 @property (nonatomic, copy) NSString *appId;
 
-
 /**
  *  广告是否有效，以下情况会返回NO，建议在展示广告之前判断，否则会影响计费或展示失败
  *  a.广告未拉取成功
@@ -39,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL isAdValid;
 
 /**
- 自定义处理广告落地页，当渠道为bwt时有效，点击回调中会带有广告落地页地址
+ 自定义处理广告落地页，当渠道为*时有效，点击回调中会带有广告落地页地址
 */
 @property (nonatomic, assign) BOOL customLoadingPage;
 
@@ -125,9 +124,9 @@ NS_ASSUME_NONNULL_BEGIN
  开屏广告点击回调, 可能会打开 AppStore, WebView, ThirdApp etc.
 
  @param splashAd 开屏广告
- @param loadingPageURL 广告落地页地址，当渠道为bwt，并且customLoadingPage为YES时有值
+ @param loadingPageURL 广告落地页地址，当渠道为*，并且customLoadingPage为YES时有值
  */
-- (void)CJZF_splashAdDidClick:(CJZFAdSDKSplashAd *)splashAd loadingPageURL:(NSString *)loadingPageURL;
+- (void)CJZF_splashAdDidClick:(CJZFAdSDKSplashAd *)splashAd loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_splashAdDidClickReport:回调方法");
 
 /**
  开屏广告点击上报回调
@@ -149,7 +148,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param splashAd 开屏对象
  */
-- (void)CJZF_splashAdExposured:(CJZFAdSDKSplashAd *)splashAd;
+- (void)CJZF_splashAdExposured:(CJZFAdSDKSplashAd *)splashAd DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_splashAdExposuredReport:回调方法");
 
 /**
  开屏广告展示上报回调
@@ -158,7 +157,6 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion 当开屏广告成功展示给用户时，SDK会调用此方法。接入方可以在此回调中进行广告曝光的数据统计。
  */
 - (void)CJZF_splashAdExposuredReport:(CJZFAdSDKSplashAd *)splashAd;
-
 
 /**
  开屏广告加载成功

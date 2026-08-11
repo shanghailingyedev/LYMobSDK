@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)requestAdCacheSuccess:(NSString *)posId;
 
+- (void)requestErrorReport:(NSError *)error;
+
 @end
 
 @interface CJZFChannelAdRequestContext : NSObject

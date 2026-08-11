@@ -23,9 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)adContainerViewFailToReceived:(CJZFBWTAdContainerView *)adContainerView error:(NSError *)error;
 
-- (void)adContainerViewClicked:(CJZFBWTAdContainerView *)adContainerView loadingPageURL:(NSString *)loadingPageURL;
+- (void)adContainerViewClicked:(CJZFBWTAdContainerView *)adContainerView loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用adContainerViewClickedReport:回调方法");
 
-- (void)adContainerViewExposure:(CJZFBWTAdContainerView *)adContainerView;
+- (void)adContainerViewExposure:(CJZFBWTAdContainerView *)adContainerView DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用adContainerViewExposureReport:回调方法");
+
+- (void)adContainerViewClickedReport:(CJZFBWTAdContainerView *)adContainerView;
+
+- (void)adContainerViewExposureReport:(CJZFBWTAdContainerView *)adContainerView;
 
 - (void)adContainerViewClose:(CJZFBWTAdContainerView *)adContainerView;
 

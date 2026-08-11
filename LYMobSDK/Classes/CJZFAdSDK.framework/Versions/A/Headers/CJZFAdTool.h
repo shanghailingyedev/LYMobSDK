@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 FOUNDATION_EXPORT BOOL CJZF_DictIsEmpty(NSDictionary * _Nullable dict);
@@ -32,6 +32,12 @@ FOUNDATION_EXPORT NSArray* CJZF_DictAllKeys(NSDictionary * _Nullable dict);
 + (UIImage *)getCloseImage;
 
 + (UIImage *)getReturnImage;
+
++ (UIWindow *)getKeyWindow;
+
++ (CGFloat)getStatusHeight;
+
++ (CGFloat)getBottomHeight;
 
 @end
 

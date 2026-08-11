@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 typedef NSString * CJZFAdSDKNativeExpressType NS_EXTENSIBLE_STRING_ENUM;
 
 FOUNDATION_EXPORT CJZFAdSDKNativeExpressType _Nonnull const CJZFAdSDKNativeExpressTypeLeft;
@@ -148,7 +148,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param nativeAd 广告模板
  */
 - (void)CJZF_nativeAdClicked:(CJZFAdSDKNativeExpressAd *)nativeAd
-                      adView:(__kindof UIView<CJZFAdapterNativeExpressAdViewDelegate> *)adView loadingPageURL:(NSString *)loadingPageURL;
+                     adView:(__kindof UIView<CJZFAdapterNativeExpressAdViewDelegate> *)adView loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_nativeAdClickedReport:adView:回调方法");
 
 /**
  信息流广告被关闭
@@ -164,7 +164,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param nativeAd 广告实例
  */
 - (void)CJZF_nativeAdExposure:(CJZFAdSDKNativeExpressAd *)nativeAd
-                       adView:(__kindof UIView<CJZFAdapterNativeExpressAdViewDelegate> *)adView;
+                      adView:(__kindof UIView<CJZFAdapterNativeExpressAdViewDelegate> *)adView DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_nativeAdExposureReport:adView:回调方法");
 
 /**
  信息流广告展示上报

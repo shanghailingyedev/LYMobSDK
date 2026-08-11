@@ -6,21 +6,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CJZFChannelCommonView.h"
 #if __has_include(<CJZFAdSDK-Kit/CJZFUtilsKit.h>)
 #import <CJZFAdSDK-Kit/CJZFUtilsKit.h>
 #else
 #import "CJZFUtilsKit.h"
 #endif
 #import "CJZFChannelSplashSkipButton.h"
-#import "CJZFChannelCommonView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class CJZFChannelAdData;
 
 @interface CJZFChannelSplashAdView : CJZFChannelCommonView
-
-@property (nonatomic, strong) CJZFChannelAdData *model;
 /**
  开屏背景视图
  */

@@ -50,4 +50,8 @@
 #import "CJZFAdapterRewardVideoAdClassLoader.h"
 #import "CJZFAdapterRewardVideoReportMark.h"
 
+#import "CJZFAdapterNoticeClassLoader.h"
+#import "CJZFAdapterNoticeCallBack.h"
+#import "CJZFAdapterNoticeAdapter.h"
+
 #endif /* CJZFAdSDKAdapter_h */

@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *posId;
 
 /**
- 是否展示关闭按钮，默认不展示，为YES则展示CJZFFuctionService
+ 是否展示关闭按钮，默认不展示，为YES则展示
 */
 @property (nonatomic, assign) BOOL showCloseView;
 
@@ -98,9 +98,9 @@ NS_ASSUME_NONNULL_BEGIN
  广告点击
  
  @param fuctionService 广告实例
- @param loadingPageURL 广告落地页地址，当渠道为bwt，并且customLoadingPage为YES时有值
+ @param loadingPageURL 广告落地页地址，当渠道为*，并且customLoadingPage为YES时有值
  */
-- (void)CJZF_fuctionServiceClicked:(CJZFFuctionService *)fuctionService loadingPageURL:(NSString *)loadingPageURL;
+- (void)CJZF_fuctionServiceClicked:(CJZFFuctionService *)fuctionService loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_fuctionServiceClickedReport:回调方法");
 
 /**
  广告点击上报
@@ -121,7 +121,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param fuctionService 广告实例
  */
-- (void)CJZF_fuctionServiceExposure:(CJZFFuctionService *)fuctionService;
+- (void)CJZF_fuctionServiceExposure:(CJZFFuctionService *)fuctionService DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_fuctionServiceExposureReport:回调方法");
 
 /**
  广告展示上报

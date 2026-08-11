@@ -6,8 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CJZFUtilsKit.h"
 #import "CJZFChannelCommonView.h"
+#if __has_include(<CJZFAdSDK-Adapter/CJZFAdSDKAdapter.h>)
+#import <CJZFAdSDK-Adapter/CJZFAdSDKAdapter.h>
+#else
+#import "CJZFAdSDKAdapter.h"
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -24,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)channelInterstitialAdViewCloseLandingPage:(CJZFChannelInterstitialAdView *)interstitialAdView;
 
-@optional
 - (UIViewController *)channelAdViewController;
 
 - (CJZFAdSDKLandingPageType)channelAdViewLandingPageType;
@@ -41,8 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) UIViewController *currentViewController;
 
 @property (nonatomic, assign) BOOL customLoadingPage;
-
-@property (nonatomic, strong) CJZFChannelAdData *model;
 
 @property (nonatomic, copy) void (^clickReport)(CGPoint sPoint, CGPoint point);
 

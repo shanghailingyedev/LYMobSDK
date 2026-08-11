@@ -118,9 +118,9 @@ NS_ASSUME_NONNULL_BEGIN
  广告点击
  
  @param bannerView 广告实例
- @param loadingPageURL 广告落地页地址，当渠道为bwt，并且customLoadingPage为YES时有值
+ @param loadingPageURL 广告落地页地址，当渠道为*，并且customLoadingPage为YES时有值
  */
-- (void)CJZF_bannerViewClicked:(CJZFAdSDKBannerAdView *)bannerView loadingPageURL:(NSString *)loadingPageURL;
+- (void)CJZF_bannerViewClicked:(CJZFAdSDKBannerAdView *)bannerView loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_bannerViewClickedReport:回调方法");
 
 /**
  广告点击上报
@@ -142,7 +142,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param bannerView 广告实例
  */
-- (void)CJZF_bannerViewExposure:(CJZFAdSDKBannerAdView *)bannerView;
+- (void)CJZF_bannerViewExposure:(CJZFAdSDKBannerAdView *)bannerView DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_bannerViewExposureReport:回调方法");
 
 /**
  广告展示上报

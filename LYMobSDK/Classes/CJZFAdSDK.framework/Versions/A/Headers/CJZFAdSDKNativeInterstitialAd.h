@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CJZFAdSDKNativeInterstitialAdDelegate;
@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isMuted;
 
 /**
- 自定义处理广告落地页，当渠道为bwt时有效，点击回调中会带有广告落地页地址
+ 自定义处理广告落地页，当渠道为*时有效，点击回调中会带有广告落地页地址
 */
 @property (nonatomic, assign) BOOL customLoadingPage;
 

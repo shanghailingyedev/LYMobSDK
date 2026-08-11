@@ -44,6 +44,8 @@ extern const CJZFAdapterErrorCode CJZF_SDK_POSID_ERROR;
 extern const CJZFAdapterErrorCode CJZF_SDK_BANNER_ERROR;
 // 插屏加载失败
 extern const CJZFAdapterErrorCode CJZF_SDK_INTERSTITIAL_ERROR;
+// channel加载广告失败
+extern const CJZFAdapterErrorCode CJZF_SDK_CHANNEL_REQUESTAD_ERROR;
 
 #define CJZFAdapterErrorDomain @"com.CJZFAd.error"
 

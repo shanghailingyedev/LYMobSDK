@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CJZFAdSDKInterstitialAdDelegate;
@@ -143,9 +143,9 @@ NS_ASSUME_NONNULL_BEGIN
  CJZFAdSDKIntertitialAd点击回调
 
  @param interstitialAd 插屏广告实例对象
- @param loadingPageURL 广告落地页地址，当渠道为bwt，并且customLoadingPage为YES时有值
+ @param loadingPageURL 广告落地页地址，当渠道为*，并且customLoadingPage为YES时有值
 */
-- (void)CJZF_interstitialAdDidClick:(CJZFAdSDKInterstitialAd *)interstitialAd loadingPageURL:(NSString *)loadingPageURL;
+- (void)CJZF_interstitialAdDidClick:(CJZFAdSDKInterstitialAd *)interstitialAd loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_interstitialAdDidClickReport:回调方法");
 
 /**
  CJZFAdSDKIntertitialAd关闭回调
@@ -159,7 +159,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param interstitialAd 广告实例
  */
-- (void)CJZF_interstitialAdExposure:(CJZFAdSDKInterstitialAd *)interstitialAd;
+- (void)CJZF_interstitialAdExposure:(CJZFAdSDKInterstitialAd *)interstitialAd DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_interstitialAdExposureReport:回调方法");;
 
 /**
  CJZFAdSDKIntertitialAd展示上报回调

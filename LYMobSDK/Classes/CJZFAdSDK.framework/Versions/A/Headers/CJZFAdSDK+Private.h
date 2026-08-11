@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 // SDK配置信息
 @property (nonatomic, strong, nullable) CJZFAdSDKConfigModel *sdkConfigModel;
 // SDK的启动Id
-@property (nonatomic, copy) NSString *appId;
+//@property (nonatomic, copy) NSString *appId;
 // userID
 @property (nonatomic, strong) NSMutableDictionary<CJZFAdapterPlatform, CJZFChannelInfo *> *channelInfoMap;
 // SDK是否初始化成功
@@ -40,6 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *mobTechAppKey;
 
 @property (nonatomic, copy) NSString *mobTechAppSecret;
+
+@property (nonatomic, copy) NSString *appId;
 
 + (instancetype)sharedInstance;
 

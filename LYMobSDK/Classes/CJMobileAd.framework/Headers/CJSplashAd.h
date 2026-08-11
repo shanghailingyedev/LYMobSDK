@@ -55,6 +55,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJSplashAd : NSObject
 
+/// 广告是否准备好（请在展示前判断）
+@property (nonatomic, assign, readonly) BOOL isReady;
+
 @property (nonatomic, weak) id <CJSplashAdDelegate> delegate;
 
 /// 初始化开屏

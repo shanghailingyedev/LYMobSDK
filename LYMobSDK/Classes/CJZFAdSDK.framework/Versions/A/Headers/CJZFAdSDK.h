@@ -14,6 +14,8 @@ typedef NS_ENUM(NSUInteger, CJZFSDKLogLevel) {
     CJZFSDKLogLevelError   = (1 << 0),
     /// Error and warning logs, 0...00010
     CJZFSDKLogLevelWarning = (1 << 1),
+    /// Error, warning, track logs, 0...00011
+    CJZFSDKLogLevelTrack   = 3,
     /// Error, warning and info logs, 0...00100
     CJZFSDKLogLevelInfo    = (1 << 2),
     /// Error, warning, info and debug logs, 0...01000

@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id <CJServiceAdDelegate> delegate;
 
+// 是否展示关闭按钮
+@property (nonatomic, assign) BOOL isShowClose;
+
 /// 初始化icon类型广告
 /// - Parameters:
 ///   - resourceId: 广告位ID

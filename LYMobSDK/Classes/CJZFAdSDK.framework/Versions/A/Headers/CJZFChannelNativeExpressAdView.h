@@ -34,8 +34,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)channelNativeExpressAdViewErrorReport:(CJZFChannelNativeExpressAdView *)nativeExpressAdView error:(NSError *)error;
 
-@optional
-
 - (CJZFAdSDKLandingPageType)channelAdViewLandingPageType;
 
 - (CGFloat)channelHalfLandingPageBackgroundColorAlpha;
@@ -50,8 +48,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) UIViewController *currentViewController;
 
 @property (nonatomic, strong) CJZFAdapterCommonReportMark *mark;
-
-@property (nonatomic, strong) CJZFChannelAdData *adData;
 
 @property (nonatomic, assign) BOOL customLoadingPage;
 

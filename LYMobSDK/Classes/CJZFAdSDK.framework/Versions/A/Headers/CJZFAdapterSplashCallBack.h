@@ -27,9 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)splashAdExposureReportCallBack:(CJZFAdapterSplashAdapter *)adapter;
 
-- (void)splashAdClickedReportCallBack:(CJZFAdapterSplashAdapter *)adapter loadingPageURL:(NSString *)loadingPageURL;
-
 - (void)splashAdClickedCallBack:(CJZFAdapterSplashAdapter *)adapter loadingPageURL:(NSString *)loadingPageURL;
+
+- (void)splashAdClickedReportCallBack:(CJZFAdapterSplashAdapter *)adapter;
 
 - (void)splashAdClosedCallBack:(CJZFAdapterSplashAdapter *)adapter;
 

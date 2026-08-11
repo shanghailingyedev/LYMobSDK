@@ -1,8 +1,9 @@
 //
+//  UIDevice+CJZF.h
 //  CJZFUtilsKit-code
 //
 //  Created by 早范 on 2025/1/28.
-//  
+//
 //
 
 #import <UIKit/UIKit.h>
@@ -115,7 +116,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)CJZF_fileInitTime;
 + (NSInteger)CJZF_deviceInitTime;
 
-+ (NSString *)CJZF_EnpoId;
++ (NSString *)CJZF_enpoId;
 @end
 
 #ifndef kCJZFSystemVersion

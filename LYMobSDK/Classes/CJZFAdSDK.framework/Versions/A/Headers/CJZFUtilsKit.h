@@ -40,5 +40,6 @@
 #import "CJZFAnimatedImageView+CJZFWebCache.h"
 #import "UIImageView+CJZFWebCache.h"
 #import "CJZFNewNetworkClient.h"
+#import "CJZFNewNetworkReportClient.h"
 
 #endif /* CJZFUtilsKit_h */

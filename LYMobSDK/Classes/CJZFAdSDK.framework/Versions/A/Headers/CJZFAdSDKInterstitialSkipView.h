@@ -1,5 +1,5 @@
 //
-//  CJZFAdSDKInterstitialSkipView.h
+//  CJZFAdSDKinterstitialSkipView.h
 //  CJZFAdSDK-Core
 //
 //  Created by 早范 on 2025/8/18.

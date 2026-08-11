@@ -32,6 +32,8 @@ FOUNDATION_EXPORT CJZFAdapterAdType _Nonnull const CJZFAdapterAdTypeFullScreenVo
 
 FOUNDATION_EXPORT CJZFAdapterAdType _Nonnull const CJZFAdapterAdTypeDrawvod;
 
+FOUNDATION_EXPORT CJZFAdapterAdType _Nonnull const CJZFAdapterAdTypeNotice;
+
 
 typedef NSString * CJZFAdapterPlatform NS_EXTENSIBLE_STRING_ENUM;
 
@@ -112,6 +114,14 @@ FOUNDATION_EXPORT CJZFAdSDKNativeAdMobAssetType _Nonnull const CJZFAdSDKNativeAd
 FOUNDATION_EXPORT CJZFAdSDKNativeAdMobAssetType _Nonnull const CJZFAdSDKNativeAdMobAssetTypeAdvertiser;
 
 FOUNDATION_EXPORT CJZFAdSDKNativeAdMobAssetType _Nonnull const CJZFAdSDKNativeAdMobAssetTypeAdChoicesView;
+
+typedef NSString * CJZFAdSDKNoticeAdStyleType NS_EXTENSIBLE_STRING_ENUM;
+
+FOUNDATION_EXPORT CJZFAdSDKNoticeAdStyleType _Nonnull const CJZFAdSDKNoticeAdStyleTypeSmall;
+
+FOUNDATION_EXPORT CJZFAdSDKNoticeAdStyleType _Nonnull const CJZFAdSDKNoticeAdStyleTypeMedium;
+
+FOUNDATION_EXPORT CJZFAdSDKNoticeAdStyleType _Nonnull const CJZFAdSDKNoticeAdStyleTypeLarge;
 
 @interface CJZFAdapterCommonDefine : NSObject
 

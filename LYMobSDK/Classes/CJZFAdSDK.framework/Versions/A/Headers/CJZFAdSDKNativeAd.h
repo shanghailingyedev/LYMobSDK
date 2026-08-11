@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CJZFAdSDKNativeAdDelegate;
@@ -111,7 +111,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param nativeAd 广告模板
  */
 - (void)CJZF_nativeAdClicked:(CJZFAdSDKNativeAd *)nativeAd
-                      adView:(__kindof UIView<CJZFAdapterNativeAdViewDelegate> *)adView loadingPageURL:(NSString *)loadingPageURL;
+                     adView:(__kindof UIView<CJZFAdapterNativeAdViewDelegate> *)adView loadingPageURL:(NSString *)loadingPageURL DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_nativeAdClickedReport:adView:回调方法");
 
 /**
  信息流广告被关闭
@@ -127,7 +127,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param nativeAd 广告实例
  */
 - (void)CJZF_nativeAdExposure:(CJZFAdSDKNativeAd *)nativeAd
-                       adView:(__kindof UIView<CJZFAdapterNativeAdViewDelegate> *)adView;
+                      adView:(__kindof UIView<CJZFAdapterNativeAdViewDelegate> *)adView DEPRECATED_MSG_ATTRIBUTE("该回调即将废弃，请使用CJZF_nativeAdExposureReport:adView:回调方法");
 
 /**
  信息流广告展示上报
