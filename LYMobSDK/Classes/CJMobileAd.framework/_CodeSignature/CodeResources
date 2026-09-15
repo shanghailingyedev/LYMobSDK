@@ -180,6 +180,10 @@
 		<data>
 		grfDyAcXE4ZT/tJ87l/zPqVmHlo=
 		</data>
+		<key>XrsImage.bundle/comp_close_icon.png</key>
+		<data>
+		k/RQyaw+TCub3s62wssUO9A49Zg=
+		</data>
 		<key>XrsImage.bundle/fanti_ad_default_close.png</key>
 		<data>
 		iqg3u9HMipLMQxjbQyycesYnYuQ=
@@ -734,6 +738,17 @@
 			<key>hash2</key>
 			<data>
 			Ek55B/F3QGG1p1vPephLQ4wFqfgQkfdDC4EVy3XwQOY=
+			</data>
+		</dict>
+		<key>XrsImage.bundle/comp_close_icon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k/RQyaw+TCub3s62wssUO9A49Zg=
+			</data>
+			<key>hash2</key>
+			<data>
+			uaJ4gdIwHCC0aRrzzB6eC3TuSQVbcFPDSWr1pimmDBw=
 			</data>
 		</dict>
 		<key>XrsImage.bundle/fanti_ad_default_close.png</key>

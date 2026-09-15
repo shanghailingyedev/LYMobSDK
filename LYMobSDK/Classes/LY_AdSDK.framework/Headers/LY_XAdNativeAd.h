@@ -1,6 +1,5 @@
 //
 //  LY_XAdNativeAd.h
-//  LY_AdWangMaiSDK
 //
 //  Created by 周泽浩 on 2023/3/10.
 //
@@ -36,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
  加载广告数据
  */
 - (void)loadAdData;
+
+/// 获取当前广告请求 ID，请求尚未发起时返回 nil。
+- (nullable NSString *)getRequestId;
 
 /**
  广告是否有效

@@ -1,0 +1,6 @@
+framework module LYBKDeviceTool {
+  umbrella header "LYBKDeviceTool.h"
+  export *
+
+  module * { export * }
+}

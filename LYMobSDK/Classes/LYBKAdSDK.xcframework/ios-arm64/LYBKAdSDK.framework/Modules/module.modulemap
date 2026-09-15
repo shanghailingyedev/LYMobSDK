@@ -1,0 +1,6 @@
+framework module LYBKAdSDK {
+  umbrella header "LYBKAdSDK.h"
+  export *
+
+  module * { export * }
+}
