@@ -1,6 +1,0 @@
-framework module LYJTAdSDK {
-  umbrella header "LYJTAdSDK.h"
-  export *
-
-  module * { export * }
-}

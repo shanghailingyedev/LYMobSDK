@@ -6,7 +6,7 @@ platform :ios, '11.0'
 target 'LYMobSDK_Example' do
   pod 'LYMobSDK', :path => '../'
   
-#  pod 'LYMobSDK', '1.0.13'
+#  pod 'LYMobSDK', '1.0.14'
   
   
   pod 'Masonry'

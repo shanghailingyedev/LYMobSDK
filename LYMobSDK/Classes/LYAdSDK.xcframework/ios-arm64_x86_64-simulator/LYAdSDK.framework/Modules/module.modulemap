@@ -1,6 +1,0 @@
-framework module LYAdSDK {
-  umbrella header "LYAdSDK.h"
-  export *
-
-  module * { export * }
-}

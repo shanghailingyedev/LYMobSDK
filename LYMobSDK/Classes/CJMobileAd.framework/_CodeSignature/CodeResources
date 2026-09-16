@@ -10,7 +10,23 @@
 		</data>
 		<key>Headers/CJBannerAd.h</key>
 		<data>
-		FRbjVBV3UK/mE9HGuFU7lW+7r1I=
+		MsAjBjdyLheN9SxhDqPXITHFC0s=
+		</data>
+		<key>Headers/CJDrawNative.h</key>
+		<data>
+		4cqgPL3Xlhsn6SEPi+R9ZS7ufbg=
+		</data>
+		<key>Headers/CJFeedAdMaterial.h</key>
+		<data>
+		YQlZSkdB7T25c5hUUqPUVOD+TrM=
+		</data>
+		<key>Headers/CJFeedNaiveConfig.h</key>
+		<data>
+		tPCchZ8f9f76JGVdGswD0s8VvPU=
+		</data>
+		<key>Headers/CJFeedNativeAd.h</key>
+		<data>
+		q90ZV4Q+nRsT5YdyESkuQPJB1yM=
 		</data>
 		<key>Headers/CJFullscreenVideoAd.h</key>
 		<data>
@@ -18,19 +34,19 @@
 		</data>
 		<key>Headers/CJInterstitialAd.h</key>
 		<data>
-		Pt8DjL8cs8OyXfJhmTq3+JWzOoE=
+		FeDdVJdxuXj4VNR0JfvIawC7qjE=
 		</data>
 		<key>Headers/CJMobileAd.h</key>
 		<data>
-		QgIz9KUHdHuJcEGWRlQBOi6Qdis=
+		9MRuTphcvV3TCAGJCis7sHr5P8I=
 		</data>
 		<key>Headers/CJNativeAd.h</key>
 		<data>
-		0qyyHawWiQOv7gu1Mh+HkXieg64=
+		8QD/KlR1aOL/iklqtX1HcFNfDZE=
 		</data>
 		<key>Headers/CJRewardVideoAd.h</key>
 		<data>
-		z67rAQCWBv070Zvbxuk4FWlbsko=
+		Ubt6ktuKSdzT8xkPS3+I4gAClDI=
 		</data>
 		<key>Headers/CJSceneManager.h</key>
 		<data>
@@ -50,7 +66,7 @@
 		</data>
 		<key>Headers/CJSplashAd.h</key>
 		<data>
-		egqb4Q3wQJx4LG2ki5KWr4TDhJs=
+		ERqYtU4dpb/pebHG0zZkKRlnNUM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -180,10 +196,6 @@
 		<data>
 		grfDyAcXE4ZT/tJ87l/zPqVmHlo=
 		</data>
-		<key>XrsImage.bundle/comp_close_icon.png</key>
-		<data>
-		k/RQyaw+TCub3s62wssUO9A49Zg=
-		</data>
 		<key>XrsImage.bundle/fanti_ad_default_close.png</key>
 		<data>
 		iqg3u9HMipLMQxjbQyycesYnYuQ=
@@ -282,11 +294,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FRbjVBV3UK/mE9HGuFU7lW+7r1I=
+			MsAjBjdyLheN9SxhDqPXITHFC0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmYW/ZxR1e8Py8J3dj2IbrXKYauEIvL/Q/PpZLzNXvo=
+			9L0tLvG0/8NgyHeHLVW1OzB3P/u7rMADDkKccIKB8Rg=
+			</data>
+		</dict>
+		<key>Headers/CJDrawNative.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4cqgPL3Xlhsn6SEPi+R9ZS7ufbg=
+			</data>
+			<key>hash2</key>
+			<data>
+			BTJQsED4XTFKCPeF9+3JIPeHFeMsp2WOkIWK8hEOXzA=
+			</data>
+		</dict>
+		<key>Headers/CJFeedAdMaterial.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YQlZSkdB7T25c5hUUqPUVOD+TrM=
+			</data>
+			<key>hash2</key>
+			<data>
+			XD6FC/lplfL5f/lAqtWHD0xYR2UAU7gyLOY1Hitbc30=
+			</data>
+		</dict>
+		<key>Headers/CJFeedNaiveConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tPCchZ8f9f76JGVdGswD0s8VvPU=
+			</data>
+			<key>hash2</key>
+			<data>
+			rYtO0tH1ysZkcnkHK3RLabxUCLO8rWmBghqfLUg7OAs=
+			</data>
+		</dict>
+		<key>Headers/CJFeedNativeAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q90ZV4Q+nRsT5YdyESkuQPJB1yM=
+			</data>
+			<key>hash2</key>
+			<data>
+			W+2Vjlk4lEk5aARKwZy8Cc5g192PSd4vY4pP42YC5Ww=
 			</data>
 		</dict>
 		<key>Headers/CJFullscreenVideoAd.h</key>
@@ -304,44 +360,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pt8DjL8cs8OyXfJhmTq3+JWzOoE=
+			FeDdVJdxuXj4VNR0JfvIawC7qjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SRg+85sEVZtmySofYmh6yxezKtmfziMpQxjVS9ki2GU=
+			PaiuB5aPI5jm/x83fZInqgZfLDKe1aBZtXxLSGb9MFs=
 			</data>
 		</dict>
 		<key>Headers/CJMobileAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QgIz9KUHdHuJcEGWRlQBOi6Qdis=
+			9MRuTphcvV3TCAGJCis7sHr5P8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			72RZZboWXwQyzrXsYIa8vW4/SosXLKi2XsBuG2hC0Yk=
+			i6VSZWL9tsd/cxwwXckEsiHqAZoCayu4xxFPIpQQtuw=
 			</data>
 		</dict>
 		<key>Headers/CJNativeAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0qyyHawWiQOv7gu1Mh+HkXieg64=
+			8QD/KlR1aOL/iklqtX1HcFNfDZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			em71UIS9U8YDGEyzH4JtCd26jFM1yQ3XgelkvJcqX9E=
+			yY0LD6PaWy2+cmUW+DRpndFnUuELAXIEi/nD3pc1gcg=
 			</data>
 		</dict>
 		<key>Headers/CJRewardVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z67rAQCWBv070Zvbxuk4FWlbsko=
+			Ubt6ktuKSdzT8xkPS3+I4gAClDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			M4CPkbYtqMLrsYMRS2k+Cq72JtRaZFF2NIIVhyyVVgI=
+			W7AAi37P9Nnlnf10pY9DpXbVwsYA9V0EbmhUmUX0lpI=
 			</data>
 		</dict>
 		<key>Headers/CJSceneManager.h</key>
@@ -392,11 +448,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			egqb4Q3wQJx4LG2ki5KWr4TDhJs=
+			ERqYtU4dpb/pebHG0zZkKRlnNUM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MdF7c+qSsYZZ/0OjB2AksJuCH3kE+77hbEgDYnLa90k=
+			GEKKmXTWCLtW22T4wgi5FX2YIj3DM89Y/rHsXTqQ2uE=
 			</data>
 		</dict>
 		<key>LY_AdSDK.bundle/ad_close.png</key>
@@ -738,17 +794,6 @@
 			<key>hash2</key>
 			<data>
 			Ek55B/F3QGG1p1vPephLQ4wFqfgQkfdDC4EVy3XwQOY=
-			</data>
-		</dict>
-		<key>XrsImage.bundle/comp_close_icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k/RQyaw+TCub3s62wssUO9A49Zg=
-			</data>
-			<key>hash2</key>
-			<data>
-			uaJ4gdIwHCC0aRrzzB6eC3TuSQVbcFPDSWr1pimmDBw=
 			</data>
 		</dict>
 		<key>XrsImage.bundle/fanti_ad_default_close.png</key>

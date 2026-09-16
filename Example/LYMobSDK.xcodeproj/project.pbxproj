@@ -446,12 +446,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LYMobSDK_Example/Pods-LYMobSDK_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/LYMobSDK/LYJTAdSDK.framework/LYJTAdSDK",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYJTAdSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -512,12 +510,14 @@
 				"${PODS_ROOT}/../../LYMobSDK/Assets/CJMobileAd.bundle",
 				"${PODS_ROOT}/../../LYMobSDK/Assets/LingYeAdSDK.bundle",
 				"${PODS_ROOT}/../../LYMobSDK/Assets/LY_AdSDK.bundle",
+				"${PODS_ROOT}/../../LYMobSDK/Assets/XrsImage.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CJMobileAd.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LingYeAdSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LY_AdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XrsImage.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
