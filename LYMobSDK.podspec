@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYMobSDK'
-  s.version          = '1.0.14.1'
+  s.version          = '2.4.37.19'
   s.summary          = 'LYMobSDK'
 
 # This description is used to generate tags and improve search results.
