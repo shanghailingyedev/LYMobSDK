@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJBannerAd : NSObject
 
+/// 判断广告是否有效（展示前判断）
+@property (nonatomic, assign, readonly) BOOL isReady;
+
 @property (nonatomic,weak) id <CJBannerAdDelegate> delegate;
 
 - (instancetype)initWithResourceId:(NSString *)resourceId

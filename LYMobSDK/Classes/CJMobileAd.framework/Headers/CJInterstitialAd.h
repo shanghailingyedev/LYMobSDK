@@ -50,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJInterstitialAd : NSObject
 
+/// 判断广告是否有效（展示前判断）
+@property (nonatomic, assign, readonly) BOOL isReady;
+
 @property (nonatomic,weak) id <CJInterstitialAdDelegate> delegate;
 
 - (instancetype)initWithResourceId:(NSString *)resourceId;
